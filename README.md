@@ -105,10 +105,22 @@ Esse projeto utiliza as seguintes tecnologias:
 
 Para rodar o projeto utilize o comando:
 
-```1. Rode o aplicativo: LivrariaApplication.java;
+```
+   1. Rode o aplicativo: LivrariaApplication.java;
    2. Abra o navegador e acesse http://localhost:8080/livros;
    3. Utilize o Postman para realizar as requisições;
    4. Utilize o H2 Console para visualizar os dados no banco de dados.
 
 ```
+## Diagrama de casos de uso
+```mermaid
+graph TD
+    Usuario -->|Cria| Livro
+    Usuario -->|Deleta| Livro
+    Usuario -->|Busca| Livro
+    Usuario -->|Atualiza| Livro
+    Usuario -->|Cria| Autor
+    Usuario -->|Deleta| Autor
+    Usuario -->|Busca| Autor
+    Usuario -->|Atualiza| Autor
 
